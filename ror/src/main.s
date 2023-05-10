@@ -1,0 +1,28 @@
+VIA0_IORB  = $4000
+VIA0_IORA  = $4001
+VIA0_DDRB  = $4002
+VIA0_DDRA  = $4003
+VIA0_T1CL  = $4004
+VIA0_T1CH  = $4005
+VIA0_T1LL  = $4006
+VIA0_T1LH  = $4007
+VIA0_T2CL  = $4008
+VIA0_T2CH  = $4009
+VIA0_SR    = $400A
+VIA0_ACR   = $400B
+VIA0_PCR   = $400C
+VIA0_IFR   = $400D
+VIA0_IER   = $400E
+VIA0_IORB2 = $400F
+
+main:
+  lda #$ff
+  sta VIA0_DDRB
+
+  lda #$80
+
+loop:
+  sta VIA0_IORB
+  ror
+
+  bra loop

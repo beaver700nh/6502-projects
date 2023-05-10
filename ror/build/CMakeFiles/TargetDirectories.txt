@@ -1,0 +1,3 @@
+/home/alarm/Programming/6502-projects/ror/build/CMakeFiles/ror.dir
+/home/alarm/Programming/6502-projects/ror/build/CMakeFiles/edit_cache.dir
+/home/alarm/Programming/6502-projects/ror/build/CMakeFiles/rebuild_cache.dir

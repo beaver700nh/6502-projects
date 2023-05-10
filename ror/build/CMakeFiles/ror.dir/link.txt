@@ -1,0 +1,1 @@
+/usr/bin/cl65 -C /home/alarm/Programming/6502-projects/ror/memory.cfg CMakeFiles/ror.dir/src/main.s.obj -o bin/ror 
